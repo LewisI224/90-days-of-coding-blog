@@ -1,0 +1,15 @@
+.sidebar {
+    width: 20%;
+    position: fixed;
+    top: 10%;
+    right: 0;
+    text-align:center;
+    margin: 1%;
+}
+
+.link {
+    text-decoration: none;
+    color: #000000;
+}
+
+
