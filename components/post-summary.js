@@ -13,7 +13,7 @@ export default function PostSummary ({id, title, subtitle, date, imgurl}) {
             <Link href={`/posts/${id}`}>
                 <a className={styles.link}>
 
-                    <div className='card mb-3' key={id}>
+                    <div className='card mb-3' key={id} >
                         
                         <h5 className="card-header"><Date dateString={date} /></h5>
                         {imgurl ? (
